@@ -92,47 +92,53 @@ const HomePage = () => {
 
   const slideData = [
     {
-      title: "Consumer Durables",
+      title: "PHARMACEUTICALS & HEALTHCARE EQUIPMENTS ",
       button: "Explore More",
-      src: "https://etimg.etb2bimg.com/photo/88410934.cms",
+      src: "https://apeda.gov.in/",
     },
     {
-      title: "Consumer Services",
+      title: "OILS & SEED PRODUCTS ",
       button: "Explore More",
-      src: "https://britishbusinessexcellenceawards.co.uk/wp-content/uploads/2024/03/shutterstock_712414813-jpg.webp",
+      src: "https://iopepc.org/",
     },
    
     {
-      title: "health care",
+      title: "SPORTS GOODS",
       button: "Explore More ",
-      src: "https://www.sattva.co.in/wp-content/uploads/2022/12/Untitled-1200-%C3%97-630-px-1024x538.png",
+      src: "http://sportsgoodsindia.org/",
     },
     {
-      title: "Metals & mining",
+      title: "CHEMICALS & ALLIED PRODUCTS ",
       button: "Explore More",
-      src: "https://www.arcinsulations.com/wp-content/uploads/2024/05/mining.jpg",
+      src: "https://capexil.org/",
     },
     {
-      title: "Energy & Infra",
+      title: "HANDICRAFT & HOME FURNISHING ",
       button: "Explore More",
-      src: "https://media.istockphoto.com/id/891501876/photo/aerial-view-of-city-network-of-beijing-skyline.jpg?s=612x612&w=0&k=20&c=cSk-q6Jo9QTyB_xM47cAV2vDSTovEbSlkRCToafAZnc=",
+      src: "https://www.epch.in/",
     },
     {
-      title: "Chemical Sector",
+      title: "METAL & WOODER PRODUCTS",
       button: "Explore More",
-      src: "https://www.ey.com/adobe/dynamicmedia/deliver/dm-aid--ecc2b950-49c7-43f2-b20a-d75675d1c683/ey-lab-glassware-science-laboratory-research-and-development-concept.jpg?preferwebp=true&quality=85",
+      src: "https://eepcindia.org",
+    },
+      {
+      title: "GEMS & JEWELLERY",
+      button: "Explore More",
+      src: "https://gjepc.org/",
     },
     {
-      title: "Industrial Sector",
+      title: "APPAREALS",
       button: "Explore More",
-      src: "https://media.istockphoto.com/id/582256640/photo/oil-refinery-chemical-petrochemical-plant.jpg?s=612x612&w=0&k=20&c=BEdsHVe2vUfzRTb9KcsCS_tCH6_R_nKLKkOQCht8AKo=",
+      src: "http://aepcindia.com/",
     },
-    {
-      title: "Other Sectors",
+      {
+      title: "KITCHENWARE & GIFT ITEMS",
       button: "Explore More",
-      src: "https://www.idfcfirstbank.com/content/dam/idfcfirstbank/images/blog/beyond-banking/what-is-the-impact-of-it-on-the-banking-sector-717x404.jpg",
+      src: "https://www.exporteese.com/",
     },
   ];
+  
   
   const handleAnimationComplete = () => {
     console.log('All letters have animated!');
@@ -170,10 +176,10 @@ const HomePage = () => {
 
         <div className=" max-w-4xl mx-auto mb-20 p-6">
           <h1 className="text-2xl text-start md:text-7xl font-bold mb-8 bg-gradient-to-r from-white to-blue-500 bg-clip-text text-transparent">
-            Export Import <br/>Exportseese <br/> consultancy
+             EXPORTSEESE<br/>EXPORT IMPORT <br/> CONSULTANT AND BUYING HOUSE 
           </h1>
           <p className="text-gray-400 text-xl mb-8">
-            We Speacialze in logistic and custom Consulting across Pan India
+            To support buyers and sellers in finding right partner for multiple products Managing compliance for companies related to DGFT & CUSTOM International Logistic & freight forwarding services 
           </p>
           <a href={getSignInUrl()} 
   className="bg-blue-600 hover:bg-blue-700 px-8 py-3 rounded-full text-lg font-medium inline-flex items-center gap-2 transition-all hover:gap-3">
